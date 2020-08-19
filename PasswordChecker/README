@@ -9,7 +9,11 @@ Password API as a resource for checking online public databases with
 hacked passwords and usernames to check if your information is vulnerable.
 
 Dependencies:
- - python 3.4 or above
+ - python 3.5 or above
+ - requests pip module
+
+To install requests:
+    "pip3 install requests"
 
 How to run:
 To run this program, you simply must run the python3 interpreter and the file
@@ -19,4 +23,4 @@ program will read off the amount of pings (databases found) that contain each
 argument that you provided.
 
 Sample execution:
- "python3 checkmypassword arg1 arg2 arg3 ..." 
+ "python3 checkmypass.py arg1 arg2 arg3 ..." 
